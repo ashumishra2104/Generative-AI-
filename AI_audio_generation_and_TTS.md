@@ -109,22 +109,22 @@ We will use **n8n** (a workflow automation tool) to connect Telegram, OpenAI (GP
 
 ```mermaid
 flowchart TD
-    Start[User Interface: Telegram] --> Decision{Input Type?}
+    Start["User Interface: Telegram"] --> Decision{"Input Type?"}
     
-    Decision -- Voice Message --> Download[Download File]
-    Download --> Transcribe[Transcribe with Whisper]
+    Decision -- Voice Message --> Download["Download File"]
+    Download --> Transcribe["Transcribe with Whisper"]
     Transcribe --> AgentProcessing
     
     Decision -- Text Message --> AgentProcessing
     
     subgraph "AI Agent Brain (n8n)"
-    AgentProcessing[Process Request] --> FetchNews[Fetch News API]
-    FetchNews --> GenScript[Generate Concise Script (GPT-4)]
-    GenScript --> TTS[Text-to-Speech Generation]
+    AgentProcessing["Process Request"] --> FetchNews["Fetch News API"]
+    FetchNews --> GenScript["Generate Concise Script (GPT-4)"]
+    GenScript --> TTS["Text-to-Speech Generation"]
     end
     
-    TTS --> SendAudio[Send Audio File to Telegram]
-    SendAudio --> User[User Listens to Update]
+    TTS --> SendAudio["Send Audio File to Telegram"]
+    SendAudio --> User["User Listens to Update"]
     
     classDef steps fill:#f9f,stroke:#333,stroke-width:2px;
     class Start,User steps;
