@@ -5,27 +5,44 @@ Welcome to the **Generative AI** repository. This collection of guides serves as
 ## 📚 Repository Contents
 
 ### 1. 🎨 [AI Image Generation: A Comprehensive Guide](./AI_Image_Generation_Guide.md)
+
 **"From Fundamental Concepts to Advanced Prompt Engineering"**
 
 This guide takes you through the evolution and practical application of AI image generation.
+
 - **Core Concepts**: Understand the difference between GANs (Generative Adversarial Networks) and Diffusion models.
 - **Techniques**: Learn about Image Classification, Conditional GANs, and Latent Diffusion.
 - **Prompt Engineering**: Master the 7 Rules of Prompt Writing to get the exact results you want.
 - **Tools Covered**: Stable Diffusion, Midjourney, DALL-E 3, and more.
 
 ### 2. 🎵 [AI Music Generation: The Complete Ready Reckoner](./AI_Music_Generation_Ready_Reckoner.md)
+
 **"The History, Technology, and Tools of AI Music"**
 
 A deep dive into how AI is revolutionizing music composition and production.
+
 - **History**: From Turing's 1951 computer music to modern Deep Learning.
 - **Technology**: Explainers on Waveforms, Spectrograms, Transformers, and WaveNet.
 - **Applications**: How to use AI for voice cloning, adaptive game audio, and full song creation.
 - **Tools & Resources**: Links to Suno, Udio, Google Magenta, and interactive demos.
 
-### 3. 🎬 [AI Video Creation: Complete Guide](./AI_Video_Creation_Complete_Guide.md)
+### 3. �️ [AI Audio Generation & Text-to-Speech (TTS)](./AI_audio_generation_and_TTS.md)
+
+**"Master the Art of Voice AI: From Industry Applications to Building Audio Agents"**
+
+Explore the world of AI voice generation and Text-to-Speech technology.
+
+- **Key Players**: Deep dive into ElevenLabs and OpenAI TTS capabilities.
+- **Industry Use Cases**: How companies like Cars24 and Meesho use AI voice at scale.
+- **Tutorial**: Step-by-step guide to building an AI News Agent using n8n.
+- **Future Trends**: Real-time latency, emotional intelligence, and hyper-personalization.
+
+### 4. �🎬 [AI Video Creation: Complete Guide](./AI_Video_Creation_Complete_Guide.md)
+
 **"Master AI Video Generation: From Concept to Creation"**
 
 A practical guide to creating professional insights into the rapidly evolving world of AI video.
+
 - **Three Core Methods**: Master Text-to-Video, Image-to-Video, and Video-to-Video enhancement.
 - **Workflow**: Step-by-step guides for scripting, prompting, and post-processing.
 - **Tools**: In-depth looks at Runway Gen-2, Pika, Sora, and VEO.
